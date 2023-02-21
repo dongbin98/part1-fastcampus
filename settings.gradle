@@ -14,5 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "part1-fastcampus"
 include ':app'
-include ':coutingapp'
+include ':countingapp'
 include ':sizechangeapp'
+include ':emergencyapp'

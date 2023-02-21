@@ -11,7 +11,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/coutingapp" />
+            <option value="$PROJECT_DIR$/countingapp" />
+            <option value="$PROJECT_DIR$/emergencyapp" />
             <option value="$PROJECT_DIR$/sizechangeapp" />
           </set>
         </option>
