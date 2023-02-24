@@ -31,9 +31,7 @@ class WordAdapter(val list: MutableList<Word>, private val itemClickListener: It
         }
     }
 
-    override fun getItemCount(): Int {
-        return list.size
-    }
+    override fun getItemCount() = list.size
 
     class WordViewHolder(private val binding: ItemWordBinding) :
         RecyclerView.ViewHolder(binding.root) {
