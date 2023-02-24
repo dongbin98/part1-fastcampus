@@ -14,12 +14,12 @@ class ImageAdapter(private val itemClickListener: ItemClickListener): ListAdapte
     // 데이터가 변경됨을 체킹하기 위해 Implement한 메서드 -> RecyclerView와 달리 알아서 UI 처리
     object : DiffUtil.ItemCallback<ImageItems>() {
         override fun areItemsTheSame(oldItem: ImageItems, newItem: ImageItems): Boolean {
-            // Identity, 같은 값을 참조하고 있는지 체크 (동일성 체크)
+            // Identity, 같은 값을 참조하고 있는지 체크 (동등성 체크)
             return oldItem === newItem
         }
 
         override fun areContentsTheSame(oldItem: ImageItems, newItem: ImageItems): Boolean {
-            // Equality, 같은 값인지 체크 (동등성 체크)
+            // Equality, 같은 값인지 체크 (동일성 체크)
             return oldItem == newItem
         }
 
